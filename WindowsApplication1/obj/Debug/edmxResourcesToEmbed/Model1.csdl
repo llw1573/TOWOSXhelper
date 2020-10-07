@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Database1Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="实体1集" EntityType="Database1Model.实体1" />
+  </EntityContainer>
+  <EntityType Name="实体1">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ComplexProperty1" Type="未定义" Nullable="false" />
+  </EntityType>
+</Schema>
